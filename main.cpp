@@ -139,7 +139,7 @@ int main() {
     glUseProgram(shaderProgram);
 
     // Charger l’atlas 64x64
-    unsigned int textureID = loadTexture("C:/Users/eyubc/OneDrive/Bureau/minecraftcpp/texture/atlas2.png");
+    unsigned int textureID = loadTexture("minecraftcpp/texture/atlas2.png");
     glUniform1i(glGetUniformLocation(shaderProgram, "texture1"), 0); // Uniform pour l’atlas
 
     // Activer la texture
